@@ -1,17 +1,16 @@
-import Canvas from "./canvas"
-import Customizer from "./pages/customizer"
-import Home from "./pages/Home"
+import Canvas from "./canvas/Canvas";
+import CustomItem from "./pages/CustomItem";
+import Home from "./pages/Home";
 
 function App() {
-
   return (
     <main className="app transition-all ease-in">
       <Home />
       <Canvas />
-      <Customizer />
-
+      <CustomItem />
+    
     </main>
-  )
+  );
 }
 
-export default App
+export default App;
