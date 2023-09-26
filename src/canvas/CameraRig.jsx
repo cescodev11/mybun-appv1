@@ -13,7 +13,7 @@ const CameraRig = ({ children }) => {
     const isBreakpoint = window.innerWidth <= 1460;
     const isMobile = window.innerWidth <= 700;
 
-    const scaleFactor = 4;
+    const scaleFactor = 5;
     group.current.scale.set(scaleFactor, scaleFactor, scaleFactor);
 
     let targetPosition = [-0.4, 0, 2];
